@@ -1,2 +1,2 @@
-Jag har löst summera tal och _
-jag lade till min gitignore efter mina första commits så du fick lite extra filer
+Jag har löst SummeraTal och CyberClara.\n
+Jag lade till min gitignore efter mina första commits så du fick lite extra filer(gitignoren fungerade inte så du fick några till)
