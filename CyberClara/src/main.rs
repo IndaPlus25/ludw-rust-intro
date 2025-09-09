@@ -1,9 +1,40 @@
-fn main() {
-    println!("Hello, world!");
-    
-    planen är som följer
-    gör en array med alla förnamnen
-    gör en ny array med alla förnamnen från index i första arrayen + alla efternamnen
-    sorta nya arrayen och ta bort alla som är likadana som sin granne eller remove duplicates eller gå igenom alla och gör ytterligare en ny array med alla fast lägg inte till dem mer än 1 gång
+use std::io::{self, BufRead};
 
+fn main() {
+    let stdin = io::stdin();
+    let mut lines = stdin.lock().lines();
+
+    let length: usize = lines.next()
+        .expect("Missing first line")
+        .expect("Error reading first line")
+        .parse()
+        .expect("First line is not a valid number");
+
+    if length == 0 {
+        println!("0");
+        return;
+    }
+
+    let mut forenames = Vec::with_capacity(length);
+    for _ in 0..length {
+        let line = lines.next()
+            .expect("Missing line")
+            .expect("Error reading line");
+        forenames.push(line);
+    }
+
+    let mut names = Vec::with_capacity(length);
+    for i in 0..length {
+        let surname = lines.next()
+            .expect("Missing line")
+            .expect("Error reading line");
+        names.push(format!("{} {}", forenames[i], surname));
+    }
+
+    names.sort();
+
+    names.dedup();
+
+    println!("{}", names.len());
 }
+

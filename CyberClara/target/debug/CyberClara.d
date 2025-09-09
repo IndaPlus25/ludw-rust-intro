@@ -1,0 +1,1 @@
+/home/ludwiglaukka/rost/RaySorcerers-Instructions/task-02-rust-intro/ludw-rust-intro/CyberClara/target/debug/CyberClara: /home/ludwiglaukka/rost/RaySorcerers-Instructions/task-02-rust-intro/ludw-rust-intro/CyberClara/src/main.rs
