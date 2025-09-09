@@ -1,2 +1,2 @@
 Jag har löst summera tal och _
-min gitignore är dålig så du fick lite för många filer
+jag lade till min gitignore efter mina första commits så du fick lite extra filer
