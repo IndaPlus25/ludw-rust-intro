@@ -1,0 +1,1 @@
+/home/ludwiglaukka/rost/RaySorcerers-Instructions/task-02-rust-intro/ludw-rust-intro/SummeraTal/target/debug/SummeraTal: /home/ludwiglaukka/rost/RaySorcerers-Instructions/task-02-rust-intro/ludw-rust-intro/SummeraTal/src/main.rs
